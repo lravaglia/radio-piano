@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "radio-piano"
+version = "0.1.0"
+description = "Analysing radio for notes"
+authors = ["Wren Filley <wfogg@ccsdetroit.edu>"]
+license = "GPL-v3-only"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
